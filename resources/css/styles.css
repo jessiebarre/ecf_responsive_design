@@ -22,17 +22,60 @@ html {
     margin: 0 auto;
 }
 
+section {
+    padding: 80px 0;
+}
 
-
-h1 {
-    margin-top: 0;
-    margin-bottom: 20px;
-    color: #fff;
-    font-size: 240%;
+h1,h2, h3 {
+ 
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 240%;
     word-spacing: 4px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #0D0106;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.prez {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.box {
+    padding: 1%;
+}
+
+.box p {
+    font-size: 90%;
+    line-height: 145%;
 }
 
 .btn {
