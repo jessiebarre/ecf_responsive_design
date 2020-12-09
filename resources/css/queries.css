@@ -55,8 +55,26 @@
         width: auto;
     }
 
-    .main-nav li a {
-        font-size: 80%;
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+
+    .main-nav {
+        display: none;
+        float: left;
+        margin-top: 35px;
+        margin-left: 25px;
+    }
+
+    .main-nav li {
+        display: block;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+
+    .main-nav li:hover, .main-nav li:active {
+        display: block;
+        border:0
     }
 
     h1 {
@@ -125,8 +143,26 @@
         width: auto;
     }
 
-    .main-nav li a {
-        font-size: 40%;
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+
+    .main-nav {
+        display: none;
+        float: left;
+        margin-top: 35px;
+        margin-left: 25px;
+    }
+
+    .main-nav li {
+        display: block;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+
+    .main-nav li:hover, .main-nav li:active {
+        display: block;
+        border:0
     }
 
     .section-references blockquote {
