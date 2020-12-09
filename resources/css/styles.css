@@ -13,6 +13,7 @@ html {
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 /* ------ REUSABLE COMPONENTS------*/
@@ -150,7 +151,6 @@ header {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    height: 100vh;
 }
 
 .prez-demarche {
@@ -165,16 +165,7 @@ header {
     color: #fff;
 }
 
-.valeurs {
-    width: 50%;
-    margin-left: 27.5%;
-    margin-top: 50px;
-}
 
-.valeur {
-    color: #fff;
-    text-transform: uppercase;  
-}
 
 /* ----- REFERENCES ----- */
 
@@ -247,6 +238,7 @@ footer {
 .social {
     list-style: none;
     float: right;
+    font-size: 150%;
 }
 
 .footer-nav li, .social li {

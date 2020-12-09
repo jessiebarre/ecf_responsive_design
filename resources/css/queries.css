@@ -1,0 +1,148 @@
+/* TO DESKTOP SCREENS */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row {
+        padding: 0 2%;
+    }
+}
+
+/* TO LARGE TABLETS  */
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 18px;
+    }
+
+    section {
+        padding: 60px 0;
+    } 
+
+    .prez {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .contact-form {
+        width: 80%;
+    }
+}
+
+
+/* TO SMALL TABLETS */
+@media only screen and (max-width: 767px) {
+
+    body {
+        font-size: 16px;
+    }
+
+    section {
+        padding: 30px 0;
+    }
+
+    .row, .hero-text-box {
+        padding: 0 4%;
+    }
+
+    .col {
+        width: 100%;
+    }
+
+    .logo {
+        height: 100px;
+        width: auto;
+    }
+
+    .main-nav li a {
+        font-size: 80%;
+    }
+
+    h1 {
+        font-size: 180%;
+    }
+
+    h2 {
+        font-size: 150%;
+    }
+
+    header {
+        height: 500px;
+    }
+
+    .hero-text-box {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: -60px;
+    }
+
+    .prez {
+        margin-bottom: 20px;
+    }
+
+    .section-metiers h3 {
+        font-weight: 400;
+    }
+
+    .box:first-child {
+        margin-left: 11px;
+    }
+
+    .section-references blockquote {
+        margin-top: 50px;
+    }
+
+    #quote1 {
+        margin-left: 10px;
+    }
+
+    .footer-nav li a {
+        font-size: 80%;
+    }
+
+    .social {
+        margin-top: -30px;
+        font-size: 150%
+    }
+}
+
+
+/* SMALL PHONES */
+@media only screen and (max-width: 480px) {
+    
+    .box:first-child {
+        margin-left: 0px;
+    }
+    
+    #quote1 {
+        margin-left: 0px;
+    }
+
+    .logo {
+        height: 65px;
+        width: auto;
+    }
+
+    .main-nav li a {
+        font-size: 40%;
+    }
+
+    .section-references blockquote {
+        margin-top: 30px;
+    }
+
+    .prez-demarche {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .form-input {
+        margin-top: 20px;
+    }
+
+    input, textarea {
+        margin-top: 6px;
+    }
+}

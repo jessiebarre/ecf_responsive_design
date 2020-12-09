@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="vendors/css/normalize.css">
     <link rel="stylesheet" href="vendors/css/grid.css">
     <link rel="stylesheet" href="resources/css/styles.css">
+    <link rel="stylesheet" href="resources/css/queries.css">
     <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -65,12 +66,6 @@
                 <p class="prez-demarche box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid architecto accusamus saepe quae quod vitae amet omnis eius, dolore modi sunt laudantium recusandae provident expedita commodi mollitia dolor assumenda totam.</p>
             </div>
 
-            <div class="row valeurs">
-                <div class="col span-1-of-4 valeur">Honnêteté</div>
-                <div class="col span-1-of-4 valeur">Loyauté</div>
-                <div class="col span-1-of-4 valeur">Réactivité</div>
-                <div class="col span-1-of-4 valeur">Qualité</div>
-            </div>
     </section>
 
     <section class="section-references">
@@ -79,7 +74,7 @@
         </div>
 
         <div class="row">
-            <div class="col span-1-of-3">
+            <div class="col span-1-of-3" id="quote1">
                 <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quidem consectetur repellat!
                     <cite><img src="./resources/img/client1.jpg">XX de (entreprise 1)</cite>
                 </blockquote>
@@ -106,27 +101,27 @@
 
         <div class="row">
             <form action="#" class="contact-form">
-                <div class="row">
+                <div class="row form-input">
                     <div class="col span-1-of-3">
-                        <label>Nom</label>
+                        <label class="label">Nom</label>
                     </div>
                     <div class="col span-2-of-3">
                         <input type="text" name="nom" id="nom" placeholder="Votre nom">
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row form-input">
                     <div class="col span-1-of-3">
-                        <label>E-mail</label>
+                        <label class="label">E-mail</label>
                     </div>
-                    <div class="col span-2-of-3">
+                    <div class="col span-2-of-3 ">
                         <input type="email" name="email" id="email" placeholder="exemple@test.com">
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row form-input">
                     <div class="col span-1-of-3">
-                        <label>Votre message</label>
+                        <label class="label">Votre message</label>
                     </div>
                     <div class="col span-2-of-3">
                         <textarea name="message" placeholder="Votre message"></textarea> 
