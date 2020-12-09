@@ -231,3 +231,42 @@ input[type=text], input[type=email], textarea {
 textarea {
     height: 100px;
 }
+
+/* ---- FOOTER ---- */
+
+footer {
+    background-color: #333;
+    padding: 40px;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.social {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li, .social li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+footer-nav li:last-child, .social li:last-child {
+    margin-right: 0;
+}
+
+.footer-nav li a, .social li a {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+}
+
+footer p {
+    color: #888;
+    font-size: 80%;
+    text-align: center;
+    margin-top: 20px;
+}
