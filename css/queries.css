@@ -32,7 +32,7 @@
 
 
 /* TO SMALL TABLETS */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
 
     body {
         font-size: 16px;
@@ -89,12 +89,12 @@
         height: 500px;
     }
 
-    .hero-text-box {
+     .hero-text-box {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        margin-top: -60px;
-    }
+        margin-top: -200px;
+    } 
 
     .prez {
         margin-bottom: 20px;
@@ -130,6 +130,47 @@
 /* SMALL PHONES */
 @media only screen and (max-width: 480px) {
     
+    .col { 
+        margin: 0;
+    }
+    
+    .span-2-of-2 {
+		width: 100%; 
+	}
+	.span-1-of-2 {
+		width: 100%; 
+    }
+    
+    .span-3-of-3 {
+		width: 100%; 
+	}
+	.span-2-of-3 {
+		width: 100%; 
+	}
+	.span-1-of-3 {
+		width: 100%;
+    }
+    
+    .span-4-of-4 {
+		width: 100%; 
+	}
+	.span-3-of-4 {
+		width: 100%; 
+	}
+	.span-2-of-4 {
+		width: 100%; 
+	}
+	.span-1-of-4 {
+		width: 100%; 
+    }
+    
+    .hero-text-box {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: -70px;
+    } 
+
     .box:first-child {
         margin-left: 0px;
     }
